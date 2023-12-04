@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "2023-aoc-python"
+version = "0.1.0"
+description = "Advent of Code python"
+authors = ["Chip <chipoltie0@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+rich = "^13.7.0"
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.1.6"
+black = "^23.11.0"
+jedi = "^0.19.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
